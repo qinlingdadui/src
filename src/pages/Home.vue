@@ -1,0 +1,16 @@
+/**
+* Created by zhengx
+*/
+<template>
+  <div>Home</div>
+</template>
+
+<script>
+  export default {
+    name: ''
+  }
+</script>
+
+<style>
+
+</style>
