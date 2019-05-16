@@ -2,7 +2,7 @@
 * Created by zhengx
 */
 <template>
-  <div>About</div>
+  <div style="height: 800px; width: 100%;"></div>
 </template>
 
 <script>

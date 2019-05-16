@@ -1,7 +1,8 @@
 <template>
   <header>
     <div class="clearfloat">
-      <img src="" alt="">
+      <img src="../assets/header-logo.png" alt="秦领大队" width="70" height="60" style="margin-top: 9px"/>
+      <img src="../assets/header-name.png" alt="陕西领克车友总会" width="" height="44px" style="margin-top: 17px; margin-left: 12px;">
       <nav>
         <ul class="clearfloat">
           <router-link v-for="(item, index) in menu" tag="li" :to="item.path" :key="index">{{item.name}}</router-link>
@@ -45,8 +46,6 @@
   }
   header>div>img {
     float: left;
-    width: 180px;
-    height: 52px;
   }
   header nav {
     float: right;
